@@ -48,12 +48,11 @@ PROTIP: use the inspector to learn the dimensions of the current profile image a
 
 ###Adding Elements to the DOM
 
-13a. That drawing of Pikachu is really cute.  Let’s duplicate it using [clone()](https://api.jquery.com/clone/) and insert it at the bottom of the page using [insertAfter()](http://api.jquery.com/insertafter/) or [appendTo()](http://api.jquery.com/appendto/).
+13. That drawing of Pikachu is really cute.  Let’s duplicate it using [clone()](https://api.jquery.com/clone/) and insert it at the bottom of the page using [insertAfter()](http://api.jquery.com/insertafter/) or [appendTo()](http://api.jquery.com/appendto/).
 
-13b. Wow, that was so satisfying I think we should do it 10 more times.  Use a `for` loop to help you do this.
+14. Wow, that was so satisfying I think we should do it 10 more times.  Use a `for` loop to help you do this.
 
-
-14. Let’s add a message about when the page was last updated.  We'll do this by appending a new `<li>` element to the `<ul>` in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).  [document.createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement), [document.createTextNode](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode), and [appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) are the keys to this process\*.
+15. Let’s add a message about when the page was last updated.  We'll do this by appending a new `<li>` element to the `<ul>` in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).  [document.createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement), [document.createTextNode](https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode), and [appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild) are the keys to this process\*.
 
 First we need to construct a new `<li>` tag.
 
