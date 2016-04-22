@@ -1,5 +1,7 @@
 # DOM Manipulation with Panda the Bear
 ##Getting Started
+0. Clone this repo and open this readme in your text editor.
+
 1. Go to [http://bitmakerlabs.github.io/panda-the-bear-js/index.html](http://bitmakerlabs.github.io/panda-the-bear-js/index.html) in your browser.
 
 2. Open the JavaScript console.
