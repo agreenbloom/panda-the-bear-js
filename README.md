@@ -79,7 +79,7 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
   And we'll put the `<span>` inside the `<li>`, again using `appendChild`.
 
-  `listItem.appendChild(listItem);`
+  `listItem.appendChild(leftSpan);`
 
   At this point our new elements are attached to each other but are still floating in the void separate from our webpage's DOM.
 
