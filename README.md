@@ -85,7 +85,7 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
   It's up to you to go through the same process for the second span that will go in the right-hand column of the `<ul>` (below Panda's phone number).  Look up the docs for the `Date` class to find a way of displaying the current date inside your next text node.
 
-  After that you can find a way of selecting the `<ul>` we're after and append the new `<li>` to it.  For bonus marks, apply the correct classes to these new elements of yours so the styling is consistent with the rest of the list items.
+  After that, find a way of selecting the `<ul>` and append the new `<li>` to it.  For bonus marks, apply the correct classes to these new elements of yours so the styling is consistent with the rest of the list items.
 
 
 \* you may notice that these functions are vanilla JavaScript and do not come from jQuery
