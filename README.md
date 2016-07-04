@@ -34,7 +34,7 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 7. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
 
-8. Change the value attribute of the name field to "your nemesis".
+8. Give the name field [a "value" attribute](http://www.w3schools.com/tags/att_input_value.asp) of "your nemesis".
 
 9. Change the value attribute of the email field to "koalathebear@gmail.com".
 
