@@ -14,7 +14,7 @@
 ### Review
 Remember, jQuery uses CSS-style selectors in order to target parts of the webpage (ie. the DOM).  If you need a review of that syntax, here's [a helpful guide](https://developer.mozilla.org/en/docs/Web/Guide/CSS/Getting_started/Selectors).
 
-You should be comfortable selecting elements by tag name (eg. 'h1'), class name (eg. '.special-class'), id (eg. '#super-special-id'), as well as writing descendent selectors (eg. 'header h1').
+You should be comfortable selecting elements by tag name (eg. 'h1'), class name (eg. '.special-class'), id (eg. '#super-special-id'), as well as writing descendant selectors (eg. 'header h1').
 
 ## Hacking Panda the Bear's Resume
 
