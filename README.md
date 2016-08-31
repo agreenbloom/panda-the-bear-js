@@ -1,5 +1,5 @@
 # DOM Manipulation with Panda the Bear
-##Getting Started
+## Getting Started
 0. Clone this repo and open this readme in your text editor.
 
 1. Go to [http://bitmakerlabs.github.io/panda-the-bear-js/index.html](http://bitmakerlabs.github.io/panda-the-bear-js/index.html) in your browser.
@@ -16,7 +16,7 @@ Remember, jQuery uses CSS-style selectors in order to target parts of the webpag
 
 You should be comfortable selecting elements by tag name (eg. 'h1'), class name (eg. '.special-class'), id (eg. '#super-special-id'), as well as writing descendent selectors (eg. 'header h1').
 
-##Hacking Panda the Bear's Resume
+## Hacking Panda the Bear's Resume
 
 1. Select the element that contains the profile image (hint: look for the class).  Change the `src` attribute so it points to a picture of your choosing instead (hint: use [attr()](http://api.jquery.com/attr/)).
 
@@ -47,7 +47,7 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 12. We should help Panda protect their privacy by clearing their personal details from the sidebar.  You can use [empty()](https://api.jquery.com/empty/) to do this.
 
 
-###Adding Elements to the DOM
+### Adding Elements to the DOM
 
 13. That drawing of Pikachu is really cute.  Let’s duplicate it using [clone()](https://api.jquery.com/clone/) and insert it at the bottom of the page using [insertAfter()](http://api.jquery.com/insertafter/) or [appendTo()](http://api.jquery.com/appendto/).
 
@@ -67,7 +67,7 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
    Now we need a new `<span>` tag to go inside the `<li>` we just made.  This span will eventually go in the left column below 'Phone'.
 
-  `var leftSpan = document.createElement('span');` 
+  `var leftSpan = document.createElement('span');`
 
   Next we need to make a "text node" in order to put text inside our new span.  A text node is a chunk of plain text that lives inside some HTML tag in the DOM.
 
@@ -91,5 +91,5 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 \* you may notice that these functions are vanilla JavaScript and do not come from jQuery
 
 
-##Stretch Exercise:
+## Stretch Exercise:
 Sometimes you'll run into situations where you have to get by without jQuery.  Try to find vanilla JavaScript alternatives to each of your answers that use jQuery functions.
