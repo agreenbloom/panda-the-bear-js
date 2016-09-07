@@ -22,38 +22,42 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
   PROTIP: use the inspector to learn the dimensions of the current profile image and use a placeholder image service such as [Place Kitten](https://placekitten.com/) to get an image of the same size.
 
-2. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use [text()](http://api.jquery.com/text/))
+2. Use the same approach to select the element that contains the photo of the sky and change the `src` attribute to another picture URL of your choosing.
 
-3. Panda the Bear is lying about their skills!  Take the "time travel" skill off the page to satisfy your personal sense of justice.  Use your googling and docs-skimming skillz to find a jQuery function that will allow you to remove elements from the DOM.  (hint: there are multiple ways of doing this, but the [parent()](http://api.jquery.com/parent/) function might be useful when it comes to selecting the right element)
+3. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use [text()](http://api.jquery.com/text/))
 
-4. Change the colour of the body. (hint: use [css()](http://api.jquery.com/css/))
+4. Select the heading that says "Employment" and change it to something else. (hint: use a [descendant selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors))
 
-5. Change the colour used by the `highlight` class.
+5. Panda the Bear is lying about their skills!  Take the "time travel" skill off the page to satisfy your personal sense of justice.  Use your googling and docs-skimming skillz to find a jQuery function that will allow you to remove elements from the DOM.  (hint: there are multiple ways of doing this, but the [parent()](http://api.jquery.com/parent/) function might be useful when it comes to selecting the right element)
 
-6. Find a way to select the round icons in the sidebar and then change their colour.
+6. Change the colour of the body. (hint: use [css()](http://api.jquery.com/css/))
 
-7. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
+7. Change the colour used by the `highlight` class.
 
-8. Give the name field [a "value" attribute](http://www.w3schools.com/tags/att_input_value.asp) of "your nemesis".
+8. Find a way to select the round icons in the sidebar and then change their colour.
 
-9. Change the value attribute of the email field to "koalathebear@gmail.com".
+9. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
 
-10. Change the value of the submit button on the contact form to "En garde!".
+10. Give the name field [a "value" attribute](http://www.w3schools.com/tags/att_input_value.asp) of "your nemesis".
+
+11. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+12. Change the value of the submit button on the contact form to "En garde!".
 
   Bonus points: try experimenting with both the attr() function and the val() function to find different ways of doing this.
 
-11. We should stop Koala from sending an email to Panda that they might regret!  Find a way to disable the submit button (hint: familiarize yourself with the [disabled attribute](http://www.w3schools.com/tags/att_input_disabled.asp)).
+13. We should stop Koala from sending an email to Panda that they might regret!  Find a way to disable the submit button (hint: familiarize yourself with the [disabled attribute](http://www.w3schools.com/tags/att_input_disabled.asp)).
 
-12. We should help Panda protect their privacy by clearing their personal details from the sidebar.  You can use [empty()](https://api.jquery.com/empty/) to do this.
+14. We should help Panda protect their privacy by clearing their personal details from the sidebar.  You can use [empty()](https://api.jquery.com/empty/) to do this.
 
 
 ### Adding Elements to the DOM
 
-13. That drawing of Pikachu is really cute.  Let’s duplicate it using [clone()](https://api.jquery.com/clone/) and insert it at the bottom of the page using [insertAfter()](http://api.jquery.com/insertafter/) or [appendTo()](http://api.jquery.com/appendto/).
+15. That drawing of Pikachu is really cute.  Let’s duplicate it using [clone()](https://api.jquery.com/clone/) and insert it at the bottom of the page using [insertAfter()](http://api.jquery.com/insertafter/) or [appendTo()](http://api.jquery.com/appendto/).
 
-14. Wow, that was so satisfying I think we should do it 10 more times.  Use a `for` loop to help you do this.
+16. Wow, that was so satisfying I think we should do it 10 more times.  Use a `for` loop to help you do this.
 
-15. Let’s add a message about when the page was last updated.  We'll do this by appending a new `<li>` element to the `<ul>` in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).  
+17. Let’s add a message about when the page was last updated.  We'll do this by appending a new `<li>` element to the `<ul>` in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).  
 
   ![screenshot of final effect](panda-last-updated.png)
 
