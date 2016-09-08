@@ -34,30 +34,34 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 7. Change the colour used by the `highlight` class.
 
-8. Find a way to select the round icons in the sidebar and then change their colour.
+8. Change the font family of the h1 to 'monospace'.
 
-9. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
+9. Find a way to select the round icons in the sidebar and then change their colour.
 
-10. Give the name field [a "value" attribute](http://www.w3schools.com/tags/att_input_value.asp) of "your nemesis".
+10. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
 
-11. Change the value attribute of the email field to "koalathebear@gmail.com".
+11. Change the placeholder attribute of the message field to "state your business".
 
-12. Change the value of the submit button on the contact form to "En garde!".
+12. Give the name field [a "value" attribute](http://www.w3schools.com/tags/att_input_value.asp) of "your nemesis".
+
+13. Change the value attribute of the email field to "koalathebear@gmail.com".
+
+14. Change the value of the submit button on the contact form to "En garde!".
 
   Bonus points: try experimenting with both the attr() function and the val() function to find different ways of doing this.
 
-13. We should stop Koala from sending an email to Panda that they might regret!  Find a way to disable the submit button (hint: familiarize yourself with the [disabled attribute](http://www.w3schools.com/tags/att_input_disabled.asp)).
+15. We should stop Koala from sending an email to Panda that they might regret!  Find a way to disable the submit button (hint: familiarize yourself with the [disabled attribute](http://www.w3schools.com/tags/att_input_disabled.asp)).
 
-14. We should help Panda protect their privacy by clearing their personal details from the sidebar.  You can use [empty()](https://api.jquery.com/empty/) to do this.
+16. We should help Panda protect their privacy by clearing their personal details from the sidebar.  You can use [empty()](https://api.jquery.com/empty/) to do this.
 
 
 ### Adding Elements to the DOM
 
-15. That drawing of Pikachu is really cute.  Let’s duplicate it using [clone()](https://api.jquery.com/clone/) and insert it at the bottom of the page using [insertAfter()](http://api.jquery.com/insertafter/) or [appendTo()](http://api.jquery.com/appendto/).
+17. That drawing of Pikachu is really cute.  Let’s duplicate it using [clone()](https://api.jquery.com/clone/) and insert it at the bottom of the page using [insertAfter()](http://api.jquery.com/insertafter/) or [appendTo()](http://api.jquery.com/appendto/).
 
-16. Wow, that was so satisfying I think we should do it 10 more times.  Use a `for` loop to help you do this.
+18. Wow, that was so satisfying I think we should do it 10 more times.  Use a `for` loop to help you do this.
 
-17. Let’s add a message about when the page was last updated.  We'll do this by appending a new `<li>` element to the `<ul>` in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).  
+19. Let’s add a message about when the page was last updated.  We'll do this by appending a new `<li>` element to the `<ul>` in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).  
 
   ![screenshot of final effect](panda-last-updated.png)
 
