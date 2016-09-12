@@ -31,11 +31,14 @@ You should be comfortable selecting elements by tag name (eg. 'h1'), class name 
 
 3. Select the heading that says "Panda the Bear" and change it to your own name. (hint: use [text()](http://api.jquery.com/text/))
 
-
+$( "h1.highlight" ).text( "Wesley Henshall" );
 
 
 
 4. Select the heading that says "Employment" and change it to something else. (hint: use a [descendant selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors))
+
+$( "h3.info-title" ).text( "work history" );
+
 
 5. Panda the Bear is lying about their skills!  Take the "time travel" skill off the page to satisfy your personal sense of justice.  Use your googling and docs-skimming skillz to find a jQuery function that will allow you to remove elements from the DOM.  (hint: there are multiple ways of doing this, but the [parent()](http://api.jquery.com/parent/) function might be useful when it comes to selecting the right element)
 
