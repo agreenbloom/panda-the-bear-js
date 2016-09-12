@@ -65,6 +65,8 @@ $(".action-icon-bg").css("background-color", "white")
 
 10. Scroll down to the contact form.  Change the placeholder attribute of the name field to "identify yourself".
 
+$("#name").attr("placeholder", "Identify Yourself")
+
 11. Change the placeholder attribute of the message field to "state your business".
 
 12. Give the name field [a "value" attribute](http://www.w3schools.com/tags/att_input_value.asp) of "your nemesis".
