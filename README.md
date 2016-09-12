@@ -51,6 +51,10 @@ $('body').css("background-color", "red")
 
 7. Change the colour used by the `highlight` class.
 
+$(".highlight").css("background-color", "yellow")
+
+
+
 8. Change the font family of the h1 to 'monospace'.
 
 9. Find a way to select the round icons in the sidebar and then change their colour.
