@@ -42,6 +42,9 @@ $( "h3.info-title" ).text( "work history" );
 
 5. Panda the Bear is lying about their skills!  Take the "time travel" skill off the page to satisfy your personal sense of justice.  Use your googling and docs-skimming skillz to find a jQuery function that will allow you to remove elements from the DOM.  (hint: there are multiple ways of doing this, but the [parent()](http://api.jquery.com/parent/) function might be useful when it comes to selecting the right element)
 
+$('#time-travel').parent().toggle('false')
+
+
 6. Change the colour of the body. (hint: use [css()](http://api.jquery.com/css/))
 
 7. Change the colour used by the `highlight` class.
