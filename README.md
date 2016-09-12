@@ -47,6 +47,8 @@ $('#time-travel').parent().toggle('false')
 
 6. Change the colour of the body. (hint: use [css()](http://api.jquery.com/css/))
 
+$('body').css("background-color", "red")
+
 7. Change the colour used by the `highlight` class.
 
 8. Change the font family of the h1 to 'monospace'.
